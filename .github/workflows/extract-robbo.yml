@@ -90,3 +90,5 @@ jobs:
             git commit -m "Extract Robbo.zip"
             git push
           fi
+
+# Trigger archive extraction.
