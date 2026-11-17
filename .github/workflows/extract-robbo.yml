@@ -88,6 +88,8 @@ jobs:
             echo "No extracted changes to commit."
           else
             git commit -m "Extract Robbo.zip"
+            git fetch origin main
+            git rebase origin/main
             git push
           fi
 
